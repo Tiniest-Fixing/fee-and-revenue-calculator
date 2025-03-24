@@ -302,7 +302,7 @@ export default function FeeAndRevenueCalculator() {
             </Button>
 
             {showResults && results && (
-              <table className="w-full text-sm text-left border border-gray-300 mt-4 rounded-lg overflow-hidden">
+              <table className="w-full text-sm text-left border border-gray-300 dark:border-zinc-700 mt-4 rounded-lg overflow-hidden text-black dark:text-white">
                 <thead>
                   <tr className="bg-gray-100">
                     <th className="border px-2 py-1">Type</th>
@@ -365,7 +365,7 @@ export default function FeeAndRevenueCalculator() {
               <h3 className="text-base font-semibold mb-2">
                 Current Fee Schedule ({currency})
               </h3>
-              <table className="w-full text-sm text-left border border-gray-300 rounded-lg overflow-hidden">
+              <table className="w-full text-sm text-left border border-gray-300 dark:border-zinc-700 rounded-lg overflow-hidden text-black dark:text-white">
                 <thead>
                   <tr className="bg-gray-100">
                     <th className="border px-2 py-1">Tier</th>
