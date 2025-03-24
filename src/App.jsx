@@ -1,7 +1,7 @@
-import FeeSimulationTool from './components/FeeSimulationTool';
+import FeeAndRevenueCalculator from './components/fee-and-revenue-calculator';
 
 function App() {
-  return <FeeSimulationTool />;
+  return <FeeAndRevenueCalculator />;
 }
 
 export default App;
