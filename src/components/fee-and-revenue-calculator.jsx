@@ -394,9 +394,9 @@ export default function FeeAndRevenueCalculator() {
                 <h3 className="text-base font-semibold mb-2">Revenue Calculation</h3>
                 {(() => {
                   const organicRevenue = results.organicMakerFee + results.organicTakerFee;
-                  const organicCommission = organicRevenue * 0.3;
+                  const organicCommission = organicRevenue * 0.03;
                   const programmaticRevenue = results.programmaticFee;
-                  const programmaticCommission = programmaticRevenue * 0.3;
+                  const programmaticCommission = programmaticRevenue * 0.03;
 
                   return (
                     <div className="text-sm space-y-2">
