@@ -367,7 +367,7 @@ export default function FeeAndRevenueCalculator() {
               </h3>
               <table className="w-full text-sm text-left border border-gray-300 dark:border-zinc-700 rounded-lg overflow-hidden text-black dark:text-white">
                 <thead>
-                  <tr className="bg-gray-100">
+                  <tr className="bg-gray-100 dark:bg-zinc-800 text-black dark:text-white font-semibold">
                     <th className="border px-2 py-1">Tier</th>
                     <th className="border px-2 py-1">Monthly Trading Volume</th>
                     <th className="border px-2 py-1">Maker Fee</th>
