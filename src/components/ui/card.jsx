@@ -1,3 +1,5 @@
+import React from "react";
+
 export function Card({ className = '', children }) {
   return (
     <div className={`bg-white border rounded-lg shadow ${className}`}>
