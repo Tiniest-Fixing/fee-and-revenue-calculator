@@ -1,10 +1,13 @@
 import React from "react";
 
-export function Button({ className = '', ...props }) {
+export function Input(props) {
   return (
-    <button
+    <input
       {...props}
-      className={`bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition ${className}`}
+      className={
+        'border border-gray-300 rounded px-3 py-2 text-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-500 ' +
+        (props.className || '')
+      }
     />
   );
 }
