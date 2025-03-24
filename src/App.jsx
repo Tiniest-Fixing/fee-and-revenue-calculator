@@ -1,4 +1,4 @@
-import FeeAndRevenueCalculator from './components/fee-and-revenue-calculator';
+import FeeAndRevenueCalculator from './components/fee-and-revenue-calculator.jsx';
 
 function App() {
   return <FeeAndRevenueCalculator />;
