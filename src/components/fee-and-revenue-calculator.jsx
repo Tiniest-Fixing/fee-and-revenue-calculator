@@ -168,7 +168,7 @@ export default function FeeAndRevenueCalculator() {
   ]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 p-8 flex flex-col items-center">
+    <div className="min-h-screen bg-white text-black dark:bg-zinc-900 dark:text-white p-8 flex flex-col items-center">
       <h1 className="text-3xl font-bold mb-6">OKX Fees & Revenues Calculator</h1>
 
       <div className="flex flex-col lg:flex-row items-start justify-center gap-8 w-full max-w-7xl">
